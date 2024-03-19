@@ -1,6 +1,6 @@
 package Controllers
 
-import Dato.Customer
+dimport Dato.Customer
 import Printer.Printer
 
 class Menu {

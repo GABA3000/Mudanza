@@ -21,11 +21,13 @@ class ClientsControllers {
         printer.msg("Ingresa tu RFC")
         val RFC = readln()
         printer.msg("Ingresa tu numero telefonico")
-        val phoneNumber = readln().toInt()
+        val phoneNumber = readln().toLong()
+
         printer.msg("Ingresa tu EMAIL")
         val email = readln()
         val client = Customer(names,firtsLastName,secondLastName,address,RFC,phoneNumber,email)
         clientsList.add(client)
+
     }
 
     fun showClients() {
